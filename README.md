@@ -1,8 +1,11 @@
 # 3-bit-nand-memory
 
-3-bit hardware memory built from NAND RS latches with a Karnaugh-map-optimized 2-out-of-3 majority voter and RGB LED output. The result is shown with an RGB LED:
+3-bit hardware memory built from NAND RS latches with a Karnaugh-map-optimized 2-out-of-3 majority voter and RGB LED output.
+The result is shown with an RGB LED:
 Red — output 0
 Green — output 1
+
+
 
 --------------------------------------------------------------------------------------------------------------------------------
 ## |3-bit memory|
@@ -25,7 +28,7 @@ SET/RESET B ──> [ RS latch ] ──> B ──┼──> [ Majority voter ] �
                                      │
 SET/RESET C ──> [ RS latch ] ──> C ──┘
 
-RS SCHEME IN IMAGES
+RS LATCH SCHEME IN IMAGES
 --------------------------------------------------------------------------------------------------------------------------------
 ## |Majority voting logic|
 The output is HIGH when at least two of the three stored bits are HIGH.
