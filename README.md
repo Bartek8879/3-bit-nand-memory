@@ -24,12 +24,6 @@ RS latch C → bit C
 
 The feedback inside each NAND latch keeps the selected state after the push button is released.
 
-SET/RESET A ──> [ RS latch ] ──> A ──┐
-                                     │
-SET/RESET B ──> [ RS latch ] ──> B ──┼──> [ Majority voter ] ──> RGB LED
-                                     │
-SET/RESET C ──> [ RS latch ] ──> C ──┘
-
 
 
 RS LATCH SCHEME:
