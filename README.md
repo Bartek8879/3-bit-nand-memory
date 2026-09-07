@@ -5,7 +5,7 @@ Red — output 0
 Green — output 1
 
 --------------------------------------------------------------------------------------------------------------------------------
-|3-bit memory|
+## |3-bit memory|
 
 The main part of the project is a 3-bit memory built from three asynchronous RS latches.
 
@@ -27,7 +27,7 @@ SET/RESET C ──> [ RS latch ] ──> C ──┘
 
 RS SCHEME IN IMAGES
 --------------------------------------------------------------------------------------------------------------------------------
-|Majority voting logic|
+## |Majority voting logic|
 The output is HIGH when at least two of the three stored bits are HIGH.
 
 The function was simplified using a Karnaugh map:
@@ -37,7 +37,7 @@ Then it was transformed using De Morgan's law for a NAND-only implementation
 
 ALL CALCULATIONS IN IMAGES
 --------------------------------------------------------------------------------------------------------------------------------- 
-Total NAND gate count
+## Total NAND gate count
 
 3 RS latches × 2 NAND gates = 6 NAND gates
 
@@ -45,7 +45,7 @@ majority voter = 6 NAND gates
 
 Total: 12 two-input NAND gates
 --------------------------------------------------------------------------------------------------------------------------------- 
-The circuit was then assembled as a real hardware prototype using logic ICs, push buttons, resistors, wiring, and an RGB LED.
+##The circuit was then assembled as a real hardware prototype using logic ICs, push buttons, resistors, wiring, and an RGB LED.
 
 ASSEMBLED CIRCUIT IN TWO STATES OUT = 1/OUT = 0 IN IMAGES
 --------------------------------------------------------------------------------------------------------------------------------- 
