@@ -45,7 +45,7 @@ majority voter = 6 NAND gates
 
 Total: 12 two-input NAND gates
 --------------------------------------------------------------------------------------------------------------------------------- 
-##The circuit was then assembled as a real hardware prototype using logic ICs, push buttons, resistors, wiring, and an RGB LED.
+The circuit was then assembled as a real hardware prototype using logic ICs, push buttons, resistors, wiring, and an RGB LED.
 
 ASSEMBLED CIRCUIT IN TWO STATES OUT = 1/OUT = 0 IN IMAGES
 --------------------------------------------------------------------------------------------------------------------------------- 
