@@ -5,10 +5,9 @@ The result is shown with an RGB LED:
 Red — output 0
 Green — output 1
 
-scheme:
+
+SCHEME:
 ![scheme](SCHEME.jpg)
-
-
 
 --------------------------------------------------------------------------------------------------------------------------------
 ## |3-bit memory|
@@ -31,7 +30,9 @@ SET/RESET B ──> [ RS latch ] ──> B ──┼──> [ Majority voter ] �
                                      │
 SET/RESET C ──> [ RS latch ] ──> C ──┘
 
-RS LATCH SCHEME IN IMAGES
+RS LATCH SCHEME:
+![RS scheme](RS_scheme.jpg)
+
 --------------------------------------------------------------------------------------------------------------------------------
 ## |Majority voting logic|
 The output is HIGH when at least two of the three stored bits are HIGH.
@@ -41,7 +42,9 @@ Y = AB + AC + BC
 
 Then it was transformed using De Morgan's law for a NAND-only implementation
 
-ALL CALCULATIONS IN IMAGES
+CALCULATIONS:
+![calculations](CALCULATIONS.png)
+
 --------------------------------------------------------------------------------------------------------------------------------- 
 ## Total NAND gate count
 
@@ -53,5 +56,11 @@ Total: 12 two-input NAND gates
 --------------------------------------------------------------------------------------------------------------------------------- 
 The circuit was then assembled as a real hardware prototype using logic ICs, push buttons, resistors, wiring, and an RGB LED.
 
-ASSEMBLED CIRCUIT IN TWO STATES OUT = 1/OUT = 0 IN IMAGES
+FINAL HARDWARE PROTOTYPE:
+![FINAL HARDWARE PROTOTYPE](assembled_circuit_1.jpeg)
+![FINAL HARDWARE PROTOTYPE](assembled_circuit_2.jpeg)
+
+ASSEMBLED CIRCUIT IN TWO STATES OUT = 1/0:
+![STATES 0/1](RGB_LED_output_states.png)
+
 --------------------------------------------------------------------------------------------------------------------------------- 
