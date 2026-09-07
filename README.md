@@ -5,6 +5,7 @@ The result is shown with an RGB LED:
 Red — output 0
 Green — output 1
 
+scheme:
 ![scheme](SCHEME.jpg)
 
 
