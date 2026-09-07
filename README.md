@@ -41,6 +41,8 @@ Y = AB + AC + BC
 Then it was transformed using De Morgan's law for a NAND-only implementation
 
 CALCULATIONS:
+
+
 ![calculations](CALCULATIONS.png)
 
 --------------------------------------------------------------------------------------------------------------------------------- 
