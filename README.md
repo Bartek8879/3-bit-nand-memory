@@ -46,7 +46,7 @@ CALCULATIONS:
 ![calculations](CALCULATIONS.png)
 
 --------------------------------------------------------------------------------------------------------------------------------- 
-## Total NAND gate count
+## |Total NAND gate count|
 
 3 RS latches × 2 NAND gates = 6 NAND gates
 
@@ -54,6 +54,7 @@ majority voter = 6 NAND gates
 
 Total: 12 two-input NAND gates
 --------------------------------------------------------------------------------------------------------------------------------- 
+## |Final version|
 The circuit was then assembled as a real hardware prototype using logic ICs, push buttons, resistors, wiring, and an RGB LED.
 
 FINAL HARDWARE PROTOTYPE:
